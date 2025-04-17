@@ -1,0 +1,51 @@
+! name: CEO Startups Francaises
+! description: Goggle optimise pour rechercher des informations sur les dirigeants de startups francaises, avec priorite aux sources professionnelles et francophones
+! public: true
+! author: Claude
+! homepage: https://search.brave.com
+! avatar: #0056B3
+! Booster les plateformes professionnelles
+$boost=5,site=linkedin.com
+$boost=5,site=fr.linkedin.com
+! Booster les sources d'actualites startups et economiques francaises
+$boost=4,site=maddyness.com
+$boost=4,site=frenchweb.fr
+$boost=4,site=lafrenchtech.com
+$boost=4,site=frenchtech.co
+$boost=4,site=usine-digitale.fr
+$boost=4,site=lesechos.fr
+$boost=3,site=latribune.fr
+$boost=3,site=bpifrance.fr
+$boost=3,site=lemonde.fr
+$boost=3,site=lefigaro.fr
+! Booster les sites de donnees sur les entreprises francaises
+$boost=4,site=infogreffe.fr
+$boost=4,site=societe.com
+$boost=4,site=pappers.fr
+$boost=3,site=verif.com
+$boost=3,site=kompass.fr
+! Booster les plateformes pour startups
+$boost=4,site=f6s.com
+$boost=4,site=crunchbase.com
+$boost=4,site=welcometothejungle.com
+$boost=3,site=eu-startups.com
+$boost=3,site=startup.info
+$boost=3,site=stationf.co
+$boost=3,site=euratechnologies.com
+$boost=3,site=capitalrisk.fr
+! Booster les incubateurs et accelerateurs francais
+$boost=3,site=50partners.fr
+$boost=3,site=axeleo.com
+$boost=3,site=wilco.io
+$boost=3,site=partech.com
+$boost=3,site=thefamily.co
+! Favoriser les pages en francais
+$boost=3,lang=fr
+! Downranker les sites non pertinents
+$downrank=2,site=pinterest.com
+$downrank=2,site=instagram.com
+$downrank=1,site=facebook.com
+$downrank=2,site=youtube.com
+! Downranker certains resultats generiques
+$downrank=1,site=wikipedia.org
+$downrank=2,site=quora.com
