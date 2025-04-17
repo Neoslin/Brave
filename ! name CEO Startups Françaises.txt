@@ -1,4 +1,3 @@
-! name: CEO Startups Francaises
 ! description: Goggle optimise pour rechercher des informations sur les dirigeants de startups francaises, avec priorite aux sources professionnelles et francophones
 ! public: true
 ! author: Claude
