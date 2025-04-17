@@ -1,69 +1,59 @@
-! name: CEO Startups Françaises
-! description: Goggle optimisé pour rechercher des informations sur les dirigeants de startups françaises, avec priorité aux sources professionnelles et francophones
+! name: CEO Startups Francaises
+! description: Goggle optimise pour rechercher des informations sur les dirigeants de startups francaises, avec priorite aux sources professionnelles et francophones
 ! public: true
 ! author: Claude
 ! homepage: https://search.brave.com
 ! avatar: #0056B3
-! language: fr
+
 ! Booster les plateformes professionnelles
-$boost=5,site=linkedin.com/in/
-$boost=5,site=linkedin.com/company/
-$boost=5,site=linkedin.fr/in/
-$boost=5,site=linkedin.fr/company/
-! Booster les sources d'actualités startups et économiques françaises
+$boost=5,site=linkedin.com
+$boost=5,site=fr.linkedin.com
+
+! Booster les sources d'actualites startups et economiques francaises
 $boost=4,site=maddyness.com
 $boost=4,site=frenchweb.fr
 $boost=4,site=lafrenchtech.com
 $boost=4,site=frenchtech.co
 $boost=4,site=usine-digitale.fr
-$boost=4,site=lesechos.fr/start-up
-$boost=4,site=challenges.fr/entreprise/
-$boost=3,site=latribune.fr/entreprises-finance
+$boost=4,site=lesechos.fr
+$boost=3,site=latribune.fr
 $boost=3,site=bpifrance.fr
-$boost=3,site=bpifrance-creation.fr
-$boost=3,site=lemonde.fr/economie/
-$boost=3,site=lefigaro.fr/entrepreneur/
-! Booster les sites de données sur les entreprises françaises
+$boost=3,site=lemonde.fr
+$boost=3,site=lefigaro.fr
+
+! Booster les sites de donnees sur les entreprises francaises
 $boost=4,site=infogreffe.fr
 $boost=4,site=societe.com
 $boost=4,site=pappers.fr
 $boost=3,site=verif.com
 $boost=3,site=kompass.fr
+
 ! Booster les plateformes pour startups
 $boost=4,site=f6s.com
 $boost=4,site=crunchbase.com
-$boost=4,site=welcometothejungle.com/fr/companies
-$boost=3,site=eu-startups.com/directory/
-$boost=3,site=startup.info/fr/
+$boost=4,site=welcometothejungle.com
+$boost=3,site=eu-startups.com
+$boost=3,site=startup.info
 $boost=3,site=stationf.co
 $boost=3,site=euratechnologies.com
-$boost=3,site=helloasso.com
-$boost=3,site=fundersclub.fr
-$boost=3,site=sowefund.com
 $boost=3,site=capitalrisk.fr
-! Booster les incubateurs et accélérateurs français
+
+! Booster les incubateurs et accelerateurs francais
 $boost=3,site=50partners.fr
 $boost=3,site=axeleo.com
 $boost=3,site=wilco.io
 $boost=3,site=partech.com
 $boost=3,site=thefamily.co
-! Booster les hashtags et mots-clés pertinents
-$boost=2,inurl+francaise
-$boost=2,inurl+française
-$boost=2,inurl+france
-$boost=2,inurl+startup
-$boost=2,inurl+startup
-$boost=2,inurl+tech
-$boost=2,inurl+tech
-! Favoriser les pages en français
-$boost=3,lang
+
+! Favoriser les pages en francais
+$boost=3,lang:fr
+
 ! Downranker les sites non pertinents
 $downrank=2,site=pinterest.com
-$downrank=2,site=pinterest.fr
 $downrank=2,site=instagram.com
 $downrank=1,site=facebook.com
 $downrank=2,site=youtube.com
-! Downranker certains résultats génériques
+
+! Downranker certains resultats generiques
 $downrank=1,site=wikipedia.org
 $downrank=2,site=quora.com
-$downrank=2,site=acronymfinder.com
